@@ -1,0 +1,125 @@
+----jGRASP exec: java TestIncDate 
+The current date is 1/30/2010 and 2 days are added. 
+The correct new date is 2/1/2010 and the one calculated by your program is 2/1/2010. 
+Correct! 
+ 
+The current date is 2/28/2011 and 2 days are added. 
+The correct new date is 3/2/2011 and the one calculated by your program is 3/2/2011. 
+Correct! 
+ 
+The current date is 2/28/2012 and 2 days are added. 
+The correct new date is 3/1/2012 and the one calculated by your program is 3/1/2012. 
+Correct! 
+ 
+The current date is 3/30/2011 and 2 days are added. 
+The correct new date is 4/1/2011 and the one calculated by your program is 4/1/2011. 
+Correct! 
+ 
+The current date is 4/30/2012 and 2 days are added. 
+The correct new date is 5/2/2012 and the one calculated by your program is 5/2/2012. 
+Correct! 
+ 
+The current date is 5/30/2013 and 2 days are added. 
+The correct new date is 6/1/2013 and the one calculated by your program is 6/1/2013. 
+Correct! 
+ 
+The current date is 6/30/2014 and 2 days are added. 
+The correct new date is 7/2/2014 and the one calculated by your program is 7/2/2014. 
+Correct! 
+ 
+The current date is 7/30/2015 and 2 days are added. 
+The correct new date is 8/1/2015 and the one calculated by your program is 8/1/2015. 
+Correct! 
+ 
+The current date is 8/30/2016 and 2 days are added. 
+The correct new date is 9/1/2016 and the one calculated by your program is 9/1/2016. 
+Correct! 
+ 
+The current date is 9/30/2017 and 2 days are added. 
+The correct new date is 10/2/2017 and the one calculated by your program is 10/2/2017. 
+Correct! 
+ 
+The current date is 10/30/2018 and 2 days are added. 
+The correct new date is 11/1/2018 and the one calculated by your program is 11/1/2018. 
+Correct! 
+ 
+The current date is 11/30/2019 and 2 days are added. 
+The correct new date is 12/2/2019 and the one calculated by your program is 12/2/2019. 
+Correct! 
+ 
+The current date is 12/30/2020 and 2 days are added. 
+The correct new date is 1/1/2021 and the one calculated by your program is 1/1/2021. 
+Correct! 
+ 
+The current date is 1/15/2010 and 100 days are added. 
+The correct new date is 4/25/2010 and the one calculated by your program is 4/25/2010. 
+Correct! 
+ 
+The current date is 1/15/2010 and 365 days are added. 
+The correct new date is 1/15/2011 and the one calculated by your program is 1/15/2011. 
+Correct! 
+ 
+The current date is 2/13/2011 and 381 days are added. 
+The correct new date is 2/29/2012 and the one calculated by your program is 2/29/2012. 
+Correct! 
+ 
+The current date is 2/13/2012 and 381 days are added. 
+The correct new date is 2/28/2013 and the one calculated by your program is 2/28/2013. 
+Correct! 
+ 
+The current date is 3/5/2013 and 700 days are added. 
+The correct new date is 2/3/2015 and the one calculated by your program is 2/3/2015. 
+Correct! 
+ 
+The current date is 3/16/2013 and 715 days are added. 
+The correct new date is 3/1/2015 and the one calculated by your program is 3/1/2015. 
+Correct! 
+ 
+The current date is 4/1/2014 and 38 days are added. 
+The correct new date is 5/9/2014 and the one calculated by your program is 5/9/2014. 
+Correct! 
+ 
+The current date is 5/6/2015 and 501 days are added. 
+The correct new date is 9/18/2016 and the one calculated by your program is 9/18/2016. 
+Correct! 
+ 
+The current date is 5/19/2015 and 1758 days are added. 
+The correct new date is 3/11/2020 and the one calculated by your program is 3/8/2020. 
+Wrong! 
+ 
+The current date is 6/10/2016 and 192 days are added. 
+The correct new date is 12/19/2016 and the one calculated by your program is 12/19/2016. 
+Correct! 
+ 
+The current date is 7/4/2017 and 451 days are added. 
+The correct new date is 9/28/2018 and the one calculated by your program is 9/28/2018. 
+Correct! 
+ 
+The current date is 8/13/2018 and 75 days are added. 
+The correct new date is 10/27/2018 and the one calculated by your program is 10/27/2018. 
+Correct! 
+ 
+The current date is 9/18/2018 and 168 days are added. 
+The correct new date is 3/5/2019 and the one calculated by your program is 3/5/2019. 
+Correct! 
+ 
+The current date is 10/23/2019 and 3200 days are added. 
+The correct new date is 7/27/2028 and the one calculated by your program is 7/21/2028. 
+Wrong! 
+ 
+The current date is 10/11/2019 and 7831 days are added. 
+The correct new date is 3/20/2041 and the one calculated by your program is 3/4/2041. 
+Wrong! 
+ 
+The current date is 11/17/2020 and 132 days are added. 
+The correct new date is 3/29/2021 and the one calculated by your program is 3/28/2021. 
+Wrong! 
+ 
+The current date is 12/8/2021 and 6392 days are added. 
+The correct new date is 6/9/2039 and the one calculated by your program is 5/28/2039. 
+Wrong! 
+ 
+Total test cases: 30 
+Correct: 25 
+Wrong: 5 
+ ----jGRASP: operation complete. ¼¼MM
