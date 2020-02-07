@@ -33,23 +33,52 @@ public class LinkedNumberStack implements NumberStack
     // push a value onto the stack
     public void push(int v)
     {
-        // TODO: implement this method
+        if(isFull()) {
+           throw new RuntimeException("push attempted on a full stack");
+        } else if(!isEmpty()) {
+           LNode newNode = new LNode(v);
+           // TODO: implement this method
+           newNode.setLink(m_top);
+           m_top = newNode;
+        } else {
+           LNode newNode = new LNode(v);
+           m_top = newNode;
+        }
     }
 
     // remove and return the value at the top of the stack
     public int pop()
     { 
         // TODO: implement this method
+        if(isEmpty()) {
+            throw new RuntimeException("pop attempted on empty stack");
+        }
+        LNode top = m_top;
+        if(top.getLink() == null) {  
+            m_top = null;
+        } else {
+            LNode link = top.getLink();    
+            m_top = link;  
+        } 
 		
-        return -1; // replace this statement with your own return
+        return top.getInfo(); // replace this statement with your own return
     }
 
     // return the number of elements on the stack
     public int size()
     {       
         // TODO: implement this method
-		
-        return -1; // replace this statement with your own return
+		  int count = 0; 
+        LNode top = m_top;
+        
+        if(!isEmpty()) {
+           while(top.getLink() != null) {
+               top = top.getLink();
+               count++;
+           }
+           count++;
+        }
+        return count; // replace this statement with your own return
     }
 
     // return a string representation of the stack
