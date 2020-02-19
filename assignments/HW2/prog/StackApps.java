@@ -11,7 +11,16 @@ public class StackApps
     public String decToBin(int numDec)
     {
         CharStack stackBinary = new CharStack(64);  // stack used to store the result binary number
+        char bin = 'i';
+        int num = numDec;
         
+        while(num > 0) {
+            int n = num % 2;
+            bin = (char)(n + 48);
+            num = num / 2;
+            //System.out.println(bin);
+            stackBinary.push(bin);
+        }
         // TODO: complete this method
         
         return stackBinary.toString();  // return a string representation of the stack
@@ -26,7 +35,39 @@ public class StackApps
         CharStack stackNum2 = new CharStack(64);    // stack used to store number 2
         CharStack stackResult = new CharStack(64);  // stack used to store the result of the addition
         
-        // TODO: complete this method
+        // 
+//         // TODO: complete this method
+//         for(int i = num1.length - 1; i >= 0; i--) {
+//             stackNum1.push(num1.charAt(i));
+//         } 
+//         
+//         for(int i = num2.length - 1; i >= 0; i--) {
+//             stackNum2.push(num2.charAt(i));
+//         }   
+//         
+//         BigInteger num1Int = new BigInteger(0);
+//         BigInteger num2Int = new BigInteger(0);
+//         int n = 0;
+//         
+//         for(int i = 0; i < num1.length; i++) {
+//             n = (int) (stackNum1.pop() - 48);
+//             num1Int *= 10;
+//             num1Int += (BigInteger) n;
+//         }
+//         
+//         for(int i = 0; i < num2.length; i++) {
+//             n = (int) (stackNum2.pop() - 48);
+//             num2Int = num2Int.multiply(10);
+//             num2Int = num2Int.add((BigInteger) n);
+//         }
+//         
+//         BigInteger sum = num1Int.add(num2Int);
+//         BigInteger count = sum;
+//         
+//         while(count > 0) {
+//             stackResult.push((char) (count.mod(10)));
+//             count = count.divide(10);
+//         }
         
         return stackResult.toString();  // return a string representation of the stack
     }    
