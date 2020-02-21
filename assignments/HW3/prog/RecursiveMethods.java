@@ -41,11 +41,15 @@ public class RecursiveMethods
          This method takes a character stack and converts all lower case letters to upper case ones. 
         */ 
         
+        char popped;
+        
         if(!s.isEmpty()) {   
-           char popped = s.pop();
+           popped = s.pop();
            String poppedString = popped + "";
            poppedString = poppedString.toUpperCase();
            popped = poppedString.charAt(0);
+           upperStackRec(s);
+           
            s.push(popped);
            
         }  else {
@@ -58,15 +62,12 @@ public class RecursiveMethods
     {
         // TODO: implement this method
 		  // This method reads a string and returns the string in the reversed order.
-        String reversed = "";
-        int index = 0;
-        char character = s.charAt(index);
-        if(index < s.length()) {
-           index++;
-           reverseStringRec(s);
-           reversed = reversed + character;
+        if(s.isEmpty()) {
+           return s;
         }
-        return reversed; // replace this statement with your own return
+        String letter = s.substring(0, 1);
+        s = s.substring(1, s.length());
+        return reverseStringRec(s) + letter;
     }
     
     // This method takes a reference to the head of a linked list.
@@ -76,6 +77,21 @@ public class RecursiveMethods
         // TODO: implement this method
 		  /*This method takes a reference to the head of a linked list and returns 
         the reference to the head of the linked list in the reversed order.  */
-        return new LNode(-1); // replace this statement with your own return
+        
+        if(head == null) { return head; }
+        if(head.getLink() == null) { return head; }
+        
+        
+        
+        head.getLink().setLink(head);
+        head.setLink(null);
+        return reverseListRec(head);
+        
+       
+        
+        
+        
+        
+         // replace this statement with your own return
     }
 }
