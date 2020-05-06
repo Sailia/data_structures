@@ -1,0 +1,78 @@
+
+ ----jGRASP exec: java TestBST
+01235679Test 1: inOrder() ==> [Passed]
+ Expected: 0 1 2 3 5 6 7 9
+ Yours: 0 1 2 3 5 6 7 9
+
+Test 2: size() ==> [Passed]
+ Expected: 8
+ Yours: 8
+
+Test 3: min() ==> [Passed]
+ Expected: 0
+ Yours: 0
+
+abacaebcbpckdedgehTest 4: inOrder() ==> [Passed]
+ Expected: ab ac ae bc bp ck de dg eh
+ Yours: ab ac ae bc bp ck de dg eh
+
+Test 5: size() ==> [Passed]
+ Expected: 9
+ Yours: 9
+
+Test 6: min() ==> [Passed]
+ Expected: ab
+ Yours: ab
+
+%*+-/=?@Test 7: inOrder() ==> [Passed]
+ Expected: % * + - / = ? @
+ Yours: % * + - / = ? @
+
+Test 8: size() ==> [Passed]
+ Expected: 8
+ Yours: 8
+
+Test 9: min() ==> [Passed]
+ Expected: %
+ Yours: %
+
+Test 10: evaluate(root), where root points to "+" in the following tree ==> [Passed]
+
+       *
+      / \
+     +   3
+    / \
+   15  21
+
+ Expected: 36
+ Yours: 36
+
+Test 11: evaluate(root), where root points to "*" in the following tree ==> [Passed]
+
+       *
+      / \
+     +   3
+    / \
+   15  21
+
+ Expected: 108
+ Yours: 108
+
+Test 12: evaluate(root), where root points to "/" in the following tree ==> [Passed]
+
+             /
+         /      \
+        *        +
+      /    \   /  \
+     -     +   8  15
+    / \   / \
+   33 44 27 19
+
+ Expected: -22
+ Yours: -22
+
+Total test cases: 12
+Correct: 12
+Wrong: 0
+
+ ----jGRASP: operation complete.
